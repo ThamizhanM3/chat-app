@@ -1,0 +1,19 @@
+Create 2 folders => frontend, backend
+
+cd frontend => npm create vite@latest . => React => javascript
+
+cd .. => npm init -y
+
+package.json => main: "server.js"
+
+npm i express dotenv cookie-parser bcrypt mongoose socket.io jsonwebtoken
+npm i nodemon --save-dev
+package.json => scripts =>  "server": "node backend/server.js"
+                            "dev": "nodemon backend/server.js"
+
+server.js
+    create app => express
+
+create .env => PORT no to be specified
+
+create routes folder in backend
